@@ -1,0 +1,4 @@
+[console_scripts]
+wfb-cli = telemetry.cli:main
+wfb-test-latency = telemetry.latency_test:main
+

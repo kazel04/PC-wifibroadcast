@@ -1,0 +1,17 @@
+Source: wifibroadcast
+Maintainer: Vasily Evseenko <svpcom@p2ptech.org>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+
+
+Package: wifibroadcast
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-twisted, libpcap-dev, libsodium-dev, python-pyroute2, python-future, python-configparser
+Description: Wifibroadcast server
+
+
+
+

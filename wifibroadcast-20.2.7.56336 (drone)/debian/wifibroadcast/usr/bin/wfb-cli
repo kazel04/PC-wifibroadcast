@@ -1,0 +1,12 @@
+#! /usr/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'wifibroadcast==20.2.7.56336','console_scripts','wfb-cli'
+__requires__ = 'wifibroadcast==20.2.7.56336'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('wifibroadcast==20.2.7.56336', 'console_scripts', 'wfb-cli')()
+    )

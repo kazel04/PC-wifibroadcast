@@ -1,0 +1,9 @@
+Package: wifibroadcast
+Version: 20.2.7.56336-1
+Architecture: all
+Maintainer: Vasily Evseenko <svpcom@p2ptech.org>
+Installed-Size: 1347
+Depends: python (<< 2.8), python (>= 2.7), python:any (>= 2.6.6-7~), python-twisted, libpcap-dev, libsodium-dev, python-pyroute2, python-future, python-configparser
+Section: python
+Priority: optional
+Description: Wifibroadcast server
